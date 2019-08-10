@@ -1,0 +1,139 @@
+/*This style was designed by Hampo JohnPaul */
+html{
+    width:80%;
+    height: 100%;
+}
+body{
+    width:80%;
+    /* height:100%; */
+    margin-left:23%;
+    border: 2px groove rgb(229, 160, 247);
+}
+h1{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: old english text MT;
+    font-size: 30px; word-spacing: 10px;
+    letter-spacing: 5px;
+}
+h2{
+    color: rgb(172, 20, 20);
+}
+#wrapper{
+    text-align: center;
+}
+header{
+    height:s 10%;
+    background-image: repeating-linear-gradient(white,rgb(215, 173, 235));
+}
+#title{
+    /* font: status-bar; */
+    font: oblique;
+}
+#first{
+    height: 40%;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* background: radial-gradient(rgb(217, 211, 241), green,yellow) */
+    /* background-image: url(../pics/images-6.jpg);
+    background-repeat: repeat; */
+    background: radial-gradient(rgb(205, 218, 214));
+    color: rgb(4, 49, 36);
+}
+#second{
+    height: 40%;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#sermons, #testimonies, #charity{
+    height: 40%;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+footer{
+    height: 10%;
+    color: rgb(4, 49, 36);
+    background-color: rgb(234, 173, 236);
+}
+nav{
+    text-decoration: none;
+    background-color: rgb(234, 173, 236);
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    margin-top:2px;
+}
+nav li{
+    float:left;
+    margin: 5px;
+    border: 1px solid rgb(221, 243, 94);
+    border-radius: 25%;
+    background: white;
+    padding: 3px;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+nav li a:hover{
+    color: purple;
+    font-weight: bold;
+    background: white;
+}
+nav li a:active{
+    color: green;
+}
+nav li a:visited{
+    color: indigo;
+}
+footer ul{
+    list-style: none;
+    overflow: hidden;
+}
+footer li{
+    float: right;
+    padding: 5px;
+    padding-left: 3em;
+    padding-right:1em;
+}
+footer a{
+    text-decoration: none;
+}
+ul{
+    list-style: square;
+}
+#hjac{
+    border-collapse: collapse;
+    overflow: hidden;
+}
+#details{
+    background: white;
+    color: cadetblue;
+    border: 2px solid grey;
+    border-top: none;
+    border-radius: 50%;
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+}
+#labels{
+    text-align: center;
+    background: gainsboro;
+    height: 25px;
+    vertical-align: middle;
+}
+#labels a{
+    border:2px;
+    margin: 10px;
+    background: white;
+    position: relative;
+    vertical-align:middle;
+}
+#esele{
+    width: 200px;
+}
